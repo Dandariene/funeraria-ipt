@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.logotipo {
+    width: 200px;
+    position:-webkit-sticky;
+    margin-bottom: 50px;
+    margin-top: 50PX;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer-flex {
+    /* Configuração do footer */
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
+    margin-bottom: 0.25rem;
+    position: fixed;
+    width: 100%;
+}
+
+#combinado-icones-redes-sociais {
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    justify-content:space-between;
+    width: 7rem;
+    padding-right: 1rem;
+}
+
+.icone-redes-sociais {
+    height: 2.2rem;
+}
+
+#copyright-footer{
+    font-size: 0.75rem;
+    text-align: center;
+}
