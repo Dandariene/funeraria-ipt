@@ -14,34 +14,55 @@
 #header-flex {
     /* Configuração do Header */
     margin-bottom: 0.25rem;
-    box-shadow: 0 0 3px rgb(109, 109, 109);
+    box-shadow: 0 0 6px rgb(109, 109, 109);
 }
 
 #header-elementos {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     justify-items: center;
     align-items: center;
     padding: 0.75rem 0.5rem;
+    margin-bottom: 50px;
 }
+
 
 .pag-inicial{
     font-weight: bolder;
     background-image: url(./imagens/logotransparente.jpg);
     background-position: center;
-    opacity: 0.8;
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: initial;
+    padding: 35px;
 }
 
-.footer-flex {
-    display: grid;
-    justify-content: space-around;
+.img-servicos{
+    display: flex;
+    text-align: center;
+    justify-items:flex-end;
+    justify-content:space-around;
+    padding-right: 1rem;
+}
+
+.contatos{
+    display: flex;
+    text-align: center;
     justify-items: center;
-    margin-bottom: 0.25rem;
-    position: fixed;
-    width: 100%;
+    justify-content:space-between;
+    width: 200px;
+    padding-right: 1rem;
+}
+
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 0.75rem 0.5rem;
+    box-shadow: 0 0 5px black;
+    margin-top: 35px;
 }
 
 #combinado-icones-redes-sociais {
