@@ -17,6 +17,11 @@
     box-shadow: 0 0 6px rgb(109, 109, 109);
 }
 
+.links-menu a{
+    text-decoration: none;
+    padding: 0 15px;
+}
+
 #header-elementos {
     display: flex;
     justify-content: space-around;
@@ -38,11 +43,16 @@
 }
 
 .img-servicos{
+    list-style: none;
     display: flex;
-    text-align: center;
-    justify-items:flex-end;
-    justify-content:space-around;
+    justify-content:space-between;
+    text-align:center;
+    justify-items: center;
     padding-right: 1rem;
+}
+
+.img-servicos ul li img{
+    border-radius: 5px;
 }
 
 .contatos{
@@ -61,7 +71,7 @@
     justify-items: center;
     align-items: center;
     padding: 0.75rem 0.5rem;
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px rgb(109, 109, 109);
     margin-top: 35px;
 }
 
