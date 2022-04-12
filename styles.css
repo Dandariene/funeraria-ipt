@@ -8,18 +8,29 @@
 }
 
 .logotipo {
-    height: 7rem;
+    height: 6rem;
 }
 
 #header-flex {
     /* Configuração do Header */
     margin-bottom: 0.25rem;
     box-shadow: 0 0 6px rgb(109, 109, 109);
+    background-color: #e2e5f0;
 }
 
-.links-menu a{
+.links-menu{
+    display: flex;
+}
+
+.links-menu li{
+    list-style: none;
+}
+
+.links-menu li a{
     text-decoration: none;
     padding: 0 15px;
+    color: #ff0000;
+    font-size: 20px;
 }
 
 #header-elementos {
@@ -31,15 +42,33 @@
     margin-bottom: 50px;
 }
 
+.logo-principal{
+    height: 500px;
+    margin: 50px;
+}
+
+.subtitulo{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: rgb(20, 20, 218);
+}
+
+.sobre-nos{
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+}
+
 
 .pag-inicial{
+    display: flex;
+    justify-items: center;
     font-weight: bolder;
-    background-image: url(./imagens/logotransparente.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: initial;
-    padding: 35px;
+    margin: 40px;
 }
 
 .img-servicos{
